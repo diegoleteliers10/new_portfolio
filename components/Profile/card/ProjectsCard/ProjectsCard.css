@@ -1,0 +1,4 @@
+.altura-expandida {
+  height: auto;
+  transition: height 0.2s ease-in-out;
+}

@@ -1,0 +1,14 @@
+ .footer_container {
+  background-color: #13151a;
+  margin-top: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .mark_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+ }
