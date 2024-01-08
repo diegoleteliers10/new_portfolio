@@ -3,7 +3,7 @@ import './Services.css'
 
 const Services = () => {
   return (
-    <div id="services" className='mt-[3.5rem] p-[3rem]'>
+    <div id="services" className='mt-[3.5rem] p-[3.5rem]'>
       <h2 className="text-[#B5734C] text-center"> Services </h2>
       <div className='mt-10 flex gap-[4rem]'>
 
