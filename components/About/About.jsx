@@ -14,7 +14,7 @@ const About = () => {
               Hi, I&apos;m a 23 year old full stack developer and industrial engineer from Santiago, Chile. I like to combine my two careers to create applications and web pages that are intuitive and easy to use for users. I want to bring the community closer to technology and make it more accessible and fun.
               <br/>
               <br/>
-              I am a person who loves to learn new technologies and to be able to develop new things together with teams of great values, where I can bring knowledge to them and they can bring knowledge to me. My dream is to be a developer that can make the world a better and friendly place together with technology. Currently I&apos;m doing projects both in the bootcamp I&apos;m participating in, as well as personal projects, which help me to improve and affirm my knowledge in different programming languages.
+              I am a person who loves learning about new technologies and to be able to develop new things together with teams of great values, where I can bring knowledge to them and they can bring knowledge to me. My dream is to be a developer that can make the world a better and friendly place together with technology. Currently I&apos;m doing projects both in the bootcamp I&apos;m participating in, as well as personal projects, which help me to improve and affirm my knowledge in different programming languages.
             </p>
       </div>
       <div className="more_about">

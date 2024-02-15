@@ -1,0 +1,13 @@
+@media screen and (max-width:640px) {
+  .contact-sm {
+    margin-top: -2rem;
+  }
+  .contact-sm p {
+    width: 320px;
+    text-align: center;
+  }
+  .contact-sm button {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}

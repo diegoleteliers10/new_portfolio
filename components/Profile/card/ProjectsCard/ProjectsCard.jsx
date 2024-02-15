@@ -13,16 +13,16 @@ const ProjectsCard = ({ name, image, url, deploy, description, leng}) => {
   };
 
   return (
-    <div className={`${more ? 'h-auto' : 'h-fit'} bg-[#363636] w-[300px] rounded-lg`}>
+    <div className={`${more ? 'h-auto' : 'h-[400px]'} bg-[#363636] w-[300px] rounded-lg transition duration-200`}>
       <Image src={image} width={300} height={20} alt={name} className='w-full rounded-t-lg rounded-r-lg' />
       <div className='relative px-5 pb-3'>
         <h2 className='text-[#B5734C] font-semibold text-4xl mt-3'>{name}</h2>
-        <p className={more ? 'font-normal text-[15px] transition delay-200' : 'line-clamp-4 font-normal text-[15px] transition delay-200'}>
+        <p className={`${more ? '' : 'line-clamp-4'} font-normal text-[15px]`}>
           {description}
         </p>
         <button
           type='button'
-          className='bg-[#191919] text-[#ffffff] text-[15px] rounded-md p-2 transition delay-200'
+          className='bg-[#191919] text-[#ffffff] text-[15px] rounded-md p-2'
           onClick={toggleMore}
         >
           {more ? 'See less' : 'See more'}

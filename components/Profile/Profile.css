@@ -40,3 +40,31 @@
     display: flex;
     gap: 1.5rem;
   }
+
+  @media screen and (max-width:640px) {
+    .profile_content {
+      margin-top: 1rem;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .header-aboutme_container div {
+      font-size: 18px;
+      border-radius: 20px;
+      padding: 0px 6px;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+    }
+    .header-aboutme_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #B5734C;
+      padding: 4px 15px;
+      border-radius: 50px;
+      gap: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+  }

@@ -1,3 +1,16 @@
 li {
   list-style:disc;
 }
+
+@media screen and (max-width:640px) {
+  .services-sm {
+    margin-top:-2rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+  .service_container-sm {
+    display: flex;
+    margin-top: 2.5rem;
+    flex-direction: column;
+  }
+}
