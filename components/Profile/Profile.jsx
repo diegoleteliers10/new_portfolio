@@ -53,7 +53,7 @@ const Profile = () => {
             <div className='text-xl'>Oops, no data found! Not yet...</div>
           )
         )}
-        {actual === 'experiences' && (
+        {/* {actual === 'experiences' && (
           experinces.length !== 0 ? (
             experinces.map((item) => (
               <ExperienceCard key={item.id} />
@@ -61,7 +61,7 @@ const Profile = () => {
           ) : (
             <div className='text-xl'>Oops, no data found! Not yet, unless you wanna hire me...</div>
           )
-        )}
+        )} */}
       </div>
     </div>
       )
