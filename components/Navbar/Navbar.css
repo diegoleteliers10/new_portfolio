@@ -8,9 +8,11 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 @media screen and (max-width:640px) {
@@ -68,7 +70,15 @@ h1 {
   border-bottom: 1px solid #B5734C;
 }
 
+.refs_phone {
+  text-decoration: none;
+  color: #B5734C;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
 .refs {
   text-decoration: none;
   color: #ffffff;
+  font-size: 1.2rem;
 }

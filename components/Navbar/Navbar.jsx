@@ -47,7 +47,7 @@ const Navbar = () => {
 
       {
         mnav ? (
-          <button className="" style={{ zIndex: 1000 }}>
+          <button className="sm:hidden flex" style={{ zIndex: 1000 }}>
             <Image
               src='/plus.svg'
               alt="menu"
@@ -58,7 +58,7 @@ const Navbar = () => {
             />
           </button>
         ) : (
-        <button className="" style={{ zIndex: 1000 }}>
+        <button className="sm:hidden flex" style={{ zIndex: 1000 }}>
             <Image
               src='/bx-menu.svg'
               alt="menu"
@@ -71,7 +71,7 @@ const Navbar = () => {
         )
       }
     
-      {
+      {/* {
         mnav && (
           <div className={`absolute w-[100%] bg-[#13151a] flex justify-center items-center h-[1540px] animate__animated animate__slideInRight`}>
             <ul className='w-full relative top-[20rem]'>
@@ -91,7 +91,25 @@ const Navbar = () => {
             </ul>
           </div>
         )
-      }
+      } */}
+        {mnav && (
+              <div className='w-[100vw] h-[100%] z-30 flex flex-col justify-center items-center fixed top-0 left-0 sm:hidden bg-[#13151a] overflow-y-hidden animate__animated animate__slideInRight'>
+                  <ul className='w-full text-center'>
+                    {listOfRefs.map((navigation) => (
+                      <li className="py-[1.2rem] px-12 duration-200" id="black" key={navigation.name}>
+                        <a href={navigation.ref} className="refs_phone" onClick={()=>{setMNav(false)}}>{navigation.name}</a>
+                      </li>
+                    ))}
+                    <li
+                      className="py-[1.2rem] px-12 duration-200"
+                    >
+                      <a href={`#contact`} className="refs_phone" onClick={() => { setMNav(false) }}>
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+        )}
     </nav>
   </header>
   )

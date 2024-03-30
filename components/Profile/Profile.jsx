@@ -14,16 +14,16 @@ const Profile = () => {
 
   return (
     <div className="profile_container" id="profile">
-      <div className="header-aboutme_container">
-        <div id="studies" onClick={()=>setActual('studies')} className={actual === 'studies' ? 'active' : ''}>
+      <div className="flex bg-[#B5734C] gap-[10px] py-[4px] px-[10px] sm:px-[15px] sm:py-[4px] sm:gap-[15px] sm:mx-auto rounded-[50px]">
+        <div id="studies" onClick={()=>setActual('studies')} className={`text-[25px] rounded-[20px] px-6 py-0 transition duration-200 ease-in-out cursor-pointer ${actual === 'studies' ? 'active' : ''}`}>
           Studies
         </div>
-        <div id="projects" onClick={()=>setActual('projects')} className={actual === 'projects' ? 'active' : ''}>
+        <div id="projects" onClick={()=>setActual('projects')} className={`text-[25px] rounded-[20px] px-6 py-0 transition duration-200 ease-in-out cursor-pointer ${actual === 'projects' ? 'active' : ''}`}>
           Projects
         </div>
-        <div id="experiences" onClick={()=>setActual('experiences')} className={actual === 'experiences' ? 'active' : ''}>
+        {/* <div id="experiences" onClick={()=>setActual('experiences')} className={actual === 'experiences' ? 'active' : ''}>
           Experience
-        </div>
+        </div> */}
       </div>
       <div className="profile_content">
         {actual==='studies' && study.map((item)=>(

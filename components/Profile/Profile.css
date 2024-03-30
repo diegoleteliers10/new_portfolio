@@ -8,7 +8,7 @@
     gap: 2rem;
   }
 
-  .header-aboutme_container {
+  /* .header-aboutme_container {
     display: flex;
     background-color: #B5734C;
     padding: 4px 15px;
@@ -16,15 +16,15 @@
     gap: 15px;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 
-  .header-aboutme_container div {
+  /* .header-aboutme_container div {
     font-size: 25px;
     border-radius: 20px;
     padding: 0px 6px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-  }
+  } */
 
   .header-aboutme_container div:hover {
     background-color: #93542f86
