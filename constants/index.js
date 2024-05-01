@@ -69,6 +69,15 @@ const projects=[
     image: "/wizzardingwares.png",
     description: "My job was to develop the backend part of the project. Having to create the api and the endpoints for the application data usage. I used JWT to encrypt the api endpoints to make it more secure. And I helped to a lesser extent in the frontend, besides being in charge of the deployment of the application and the servers along with the database.",
     leng:[{name:"#React",icon:''},{name:"#Express",icon:''},{name:"#PostgreSQL",icon:''},{name:"#Redux",icon:''}]
+  },
+  {
+    id:4,
+    name: "Puraluz Yoga",
+    url: "https://github.com/diegoleteliers10/puraluz",
+    deploy:"https://puraluz.vercel.app/",
+    image: "/puraluz_yoga.png",
+    description: "My job was to develop the landing page for a friend, who is a yoga instructor. Had to create de mail form with email.js and use the api of whatsapp to send messages via whatsapp to my friend. Also had to design the website.",
+    leng:[{name:"#Astro",icon:''},{name:"#Emailjs",icon:''}]
   }
 ]
 

@@ -37,7 +37,8 @@
   .profile_content{
     margin-top: 1rem;
     padding: 2rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
   }
 
